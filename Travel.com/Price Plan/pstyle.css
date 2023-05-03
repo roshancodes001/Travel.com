@@ -1,0 +1,123 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    color: #fff;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+main {
+    margin: .5%;
+    margin-top: auto;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    nav a {
+        color: #D9D9D9;
+        text-decoration: none;
+    }
+
+        nav a.active {
+            color: #000000;
+            background-color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+section{
+     margin: auto;
+    padding: 20px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+ 
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.price-box {
+    background-color: #fff;
+    color: #000000;
+    width: 25%;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    
+}
+
+    .price-box h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .price-box ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .price-box li {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .price-box button {
+        background-color: #0cd716;
+        color: #000000;
+        padding: 1rem 2rem;
+        border: 5;
+        border-color: #000;
+        border-radius: 25px;
+        font-weight: 400;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+
+footer {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}

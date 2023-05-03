@@ -1,0 +1,123 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    color: #fff;
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+
+}
+
+main{
+    margin: .5%;
+    margin-top: auto;
+}
+/* header styling */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;    
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav li {
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    nav a {
+        color: #D9D9D9;
+        text-decoration: none;
+    }
+
+        nav a.active {
+            color: #000000;
+            background-color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+
+       
+.section1 {
+    justify-content: center;
+    align-items: center;
+    height: 15cm;
+    margin: auto;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    
+    background-color: #fff;
+    width: 20cm;
+    margin-left:auto;
+    margin-right:auto;
+}
+    
+    .search input[type="text"] {
+        border: none;
+        outline:none;
+        flex-grow: 1;
+        
+    }
+.search button {
+
+  background-color: #0026ff;
+  color: #fff;
+  padding:10px;
+  border-radius: 25px;
+  margin-left: 7px;
+  cursor: pointer;
+  width:5cm;
+}
+.addbutton {
+    background-color: #0026ff;
+    color: #fff;
+    border-radius: 25px;
+    margin-left: 7px;
+    cursor: pointer;
+    width: 5cm;
+    padding: 20px;
+    font-size:20px;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+.h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: monospace;
+}
+footer {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
